@@ -1,0 +1,2 @@
+include ':app', ':di_module'
+rootProject.name='MyReference'
