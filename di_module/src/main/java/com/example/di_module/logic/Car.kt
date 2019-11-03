@@ -1,4 +1,4 @@
-package com.example.di_module
+package com.example.di_module.logic
 
 import android.util.Log
 
