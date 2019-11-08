@@ -9,4 +9,8 @@ abstract class ActivityBuilder {
     @CarScope
     @ContributesAndroidInjector(modules = [ApplicationModule::class])
     abstract fun bindDIMainActivity(): DIMainActivity
+
+    @CarScope
+    @ContributesAndroidInjector(modules = [ApplicationModule::class])
+    abstract fun bindDISMainActivity(): DISMainActivity
 }

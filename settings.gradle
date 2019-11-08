@@ -1,2 +1,2 @@
-include ':app', ':di_module'
+include ':app', ':di_module', ':databinding_module', ':coroutine_module'
 rootProject.name='MyReference'
